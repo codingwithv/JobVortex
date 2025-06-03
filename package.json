@@ -1,0 +1,12 @@
+{
+  "name": "jobportal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run build && npm run start --prefix backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
